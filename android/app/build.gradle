@@ -59,7 +59,6 @@ flutter {
 
 
 dependencies {
-    …
     // Provides ARCore Session and related resources.
     implementation 'com.google.ar:core:1.37.0'
 

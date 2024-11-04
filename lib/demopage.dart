@@ -10,6 +10,10 @@ class DemoPageView extends StatefulWidget {
 class _DemoPageViewState extends State<DemoPageView> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("AR view"),
+      ),
+    );
   }
 }
